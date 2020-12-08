@@ -17,7 +17,7 @@ while True:
 
 		
 	while True:
-		ch = input('Do You Want To Restart? Y/N')
+		ch = input('Do You Want To Restart? Y/N ')
 		if ch not in ('n', 'N', 'Y', 'y'):
 			print()
 			print('Invalid Input')
